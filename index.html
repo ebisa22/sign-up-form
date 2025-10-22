@@ -7,6 +7,79 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main-container">
+
+     <div class="logo-container">
+            <div class="logo-img">
+                <img src="./images/odin-logo.png" alt="">
+            </div>
+            <h1>ODIN</h1>
+     </div>
+
+     <div class="content-container">
+      <div class="description">
+        <p>
+        This is not a real online service! You know you need
+        something like this in your life to help you realize your 
+        deepest dreams. 
+        <br>
+         Sign up <i>now</i> to get started.
+         <br>
+         <span class="special-line">
+            You <i>know</i> you want to.
+         </span>
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="#" method="post" target="_blank" id="form">
+              
+             <div class="white-bg-container">
+                <p class="form-intro">
+                Let's do this!
+            </p>  
+                        <div class="name-container input-container">
+                            <div class="input-label-container">
+                                <label for="fname">FIRST NAME</label>
+                                 <input type="text" class="txt-input inp" id="fname" required >
+                            </div>
+                            <div class="input-label-container">
+                                <label for="lname">LAST NAME</label>
+                                 <input type="text" class="txt-input inp" id="lname" required>
+                            </div>
+                        </div>
+                        <div class="email-number-container input-container">
+                             <div class="input-label-container">
+                                <label for="email">EMAIL</label>
+                                 <input type="email" class="eml-input inp" id="email" required>
+                            </div>
+                             <div class="input-label-container">
+                                <label for="phn-number">PHONE NUMBER</label>
+                                 <input type="tel" class="tel-input inp" id="phn-number" pattern="">
+                            </div>
+                        </div>
+                        <div class="password-container input-container">
+                             <div class="input-label-container">
+                                <label for="first_password">PASSWORD</label>
+                                <input type="password" class="pass-input inp" required id="first_password" minlength="5"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\!\@\#\$\%\^\&\*\(\)\?\,\.]).*$"  title="password must contain at least one lowercase,uppercase,digit and special character">
+
+                            </div>
+                             <div class="input-label-container">
+                                <label for="confirm_password">CONFIRM PASSWORD</label>
+                                 <input type="password"  class="pass-input inp" required id="confirm_password" minlength="5" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\!\@\#\$\%\^\&\*\(\)\?\,\.]).*$"  title="password must contain at least one lowercase,uppercase,digit and special character">
+                            </div>
+                        </div>
+            </div>
+                    
+                     <div class="button-container">
+            <button type="submit" id="create-account-btn">Create Account</button>
+            <p>Already have an account?  <a href="#">Log in</a></p>
+        </div>
+        </form>
+      </div>
+       
+        
+     </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
