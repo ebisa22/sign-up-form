@@ -163,6 +163,8 @@ body{
     padding: 15px 30px;
     margin-top: 0;
     height: auto;
+    width:100vw;
+    background-color: ;
 }
 .logo-img img{
     max-height: 85px;
@@ -212,7 +214,7 @@ body{
 }
 .input-label-container label{
     align-self: center;
-    width: 15%;
+     width: max(15%,100px);
     margin-right:min(10px,5em);
     text-align: left;
     font-size:1.2rem;
@@ -222,7 +224,7 @@ body{
 .input-label-container input{
     padding: 10px;
     font-size: 1.1rem;
-    width: 50%;
+    width: min(50%,200px);
     margin-left: 10px;
 }
 .button-container{  
@@ -269,14 +271,14 @@ body{
     padding-right: 10px;
 }
 .description p{
-    font-size:1.2;
+    font-size:1.15rem;
     max-width:98% ;
 }
  .white-bg-container{
     padding: 25px 10px 25px 20px;
  }
 .form-container p{
-    font-size:1.2rem;
+    font-size:1.15rem;
     letter-spacing: 0.09em;
     margin-bottom: 8px;  
 }
@@ -292,29 +294,29 @@ body{
 }
 .input-label-container label{
     align-self: center;
-    width: 15%;
-    margin-right: min(10px,5%);
+    width: max(15%,100px);
     text-align: left;
-    font-size: 1.1rem;
+    font-size: 1rem;
     letter-spacing: 0.09em;
 }
 .input-label-container input{
     padding: 6px;
     font-size: 1.1rem;
+     width: min(50%,200px);
 }
 .button-container{  
     padding: 20px 20px 10px;
 }
 .button-container button{
-    width: 90px;
+    width: fit-content;
     padding: 10px 6px;
     margin-bottom: 30px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .button-container  p{
-    font-size:1.2;
+    font-size:1.1rem;
 }
 .button-container p a{
-    font-size: 1.2;
+    font-size: 1.1rem;
 }
 }
