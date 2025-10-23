@@ -23,12 +23,12 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  min-height: 100vh;
-
+    min-height: 100vh;
+     
 }
 .main-container{
     display: flex;
-    height: 100vh;
+    height: 100%;
 }
 .logo-container h1{
     font-family:'Norse-Bold';
@@ -44,7 +44,7 @@ body{
     padding: 15px;
     margin-top: 100px;
     background-color: rgba(10, 10, 10, 0.56);
-    flex: 1.4;
+    flex: 1;
 }
 
 .logo-img img{
@@ -146,83 +146,175 @@ body{
 .inp:focus:invalid{
     border-color: red;
 }
-/* responsive layout */
-@media screen and (max-width:750px){
+/* tablet responsive layout */
+@media screen and (max-width:768px){
      .main-container{
         flex-direction: column;
-        width: 100vw;
+        width: 100%;
         margin: 0;
      }
 
 .logo-container h1{
-    font-size: 5rem;
+    font-size: 3.4rem;
 }
 .logo-container{
     justify-content: space-between;
     flex: 0;
-    padding: 15px 25px;
+    padding: 15px 30px;
     margin-top: 0;
+    height: auto;
 }
 .logo-img img{
-    max-height: 100px;
+    max-height: 85px;
     width: auto;
 }
  
-/* right side content */
+/* bottom side content */
 .content-container{
     flex: 1;
-    padding-top: 80px;
+    padding-top: 30px;
     width: 100%;
+    
+}
+.description{
+     padding-left: 30px;
+    padding-right: 15px;
 }
 .description p{
-    font-size: 1.8rem;
+    font-size:1rem;
+    max-width:97% ;
+    
 }
  .white-bg-container{
-    padding: 40px 20px 60px 40px;
+    padding: 30px 15px 40px 30px;
  }
 .form-container p{
-    font-size: 1.8rem;
-    margin-bottom: 25px;
+    font-size:1.27rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+    
 }
 .input-container{
     flex-direction: column;
     gap: 0px;
     width: 100%;
     align-items: flex-start;
-    
 }
 .input-container>div{
-    margin-top: 35px;
+    margin-top: 20px;
     flex: 1;
 }
 .input-label-container{
     flex-direction: row;
-   width: 100%;
-  gap: 0;
+    width: 100%;
+   gap: 0;
+  
 }
 .input-label-container label{
-    width: 30%;
-    font-size: 1.3rem;
-    letter-spacing: 0.15em;
+    align-self: center;
+    width: 15%;
+    margin-right:min(10px,5em);
+    text-align: left;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+
 }
 .input-label-container input{
-    padding: 12px;
-    font-size: 1.3rem;
+    padding: 10px;
+    font-size: 0.88rem;
+    width: 50%;
+    margin-left: 10px;
 }
-
 .button-container{  
     padding: 40px 40px 20px;
 }
 .button-container button{
-    width: 190px;
-    padding: 15px;
+    width: 140px;
+    padding: 10px;
     margin-bottom: 30px;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .button-container  p{
-    font-size: 1.2rem;
+    font-size: 0.91rem;
 }
 .button-container p a{
-    font-size: 1rem;
+    font-size: 0.91rem;
+}
+}
+/* mobile responsiveness */
+@media screen and (max-width:500px){
+.logo-container h1{
+    font-size: 1.6rem;
+}
+.logo-container{
+    justify-content: space-between;
+    flex: 0;
+    padding: 10px;
+    height: auto;
+    margin-top: 0;
+}
+.logo-img img{
+    max-height: 45px;
+    width: auto;
+}
+ 
+/* right side content */
+.content-container{
+    flex: 1;
+    padding-top:20px;
+    width: 100%;
+}
+.description{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.description p{
+    font-size:0.8rem;
+    max-width:98% ;
+}
+ .white-bg-container{
+    padding: 25px 10px 25px 20px;
+ }
+.form-container p{
+    font-size:0.9rem;
+    letter-spacing: 0.09em;
+    margin-bottom: 8px;  
+}
+
+.input-container>div{
+    margin-top: 15px;
+    flex: 1;
+}
+.input-label-container{
+    flex-direction: row;
+    width: 100%;
+   gap: 0;
+}
+.input-label-container label{
+    align-self: center;
+    width: 15%;
+    margin-right: min(10px,5%);
+    text-align: left;
+    font-size: 0.6rem;
+    letter-spacing: 0.09em;
+}
+.input-label-container input{
+    padding: 6px;
+    font-size: 0.61rem;
+}
+.button-container{  
+    padding: 20px 20px 10px;
+}
+.button-container button{
+    width: 90px;
+    padding: 10px 6px;
+    margin-bottom: 30px;
+    font-size: 0.71rem;
+}
+.button-container  p{
+    font-size: 0.61rem;
+}
+.button-container p a{
+    font-size: 0.6rem;
 }
 }
