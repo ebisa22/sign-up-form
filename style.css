@@ -107,7 +107,7 @@ body{
     outline: none;
     border: 1px solid var(--border-color);
     padding: 8px;
-    font-size: 0.8rem;
+    font-size: 1.2;
     color: inherit;
     border-radius: 4px;
 }
@@ -181,7 +181,7 @@ body{
     padding-right: 15px;
 }
 .description p{
-    font-size:1rem;
+    font-size:1.4rem;
     max-width:97% ;
     
 }
@@ -189,7 +189,7 @@ body{
     padding: 30px 15px 40px 30px;
  }
 .form-container p{
-    font-size:1.27rem;
+    font-size:1.4rem;
     letter-spacing: 0.1em;
     margin-bottom: 10px;
     
@@ -215,13 +215,13 @@ body{
     width: 15%;
     margin-right:min(10px,5em);
     text-align: left;
-    font-size: 0.85rem;
+    font-size:1.2rem;
     letter-spacing: 0.1em;
 
 }
 .input-label-container input{
     padding: 10px;
-    font-size: 0.88rem;
+    font-size: 1.1rem;
     width: 50%;
     margin-left: 10px;
 }
@@ -232,13 +232,13 @@ body{
     width: 140px;
     padding: 10px;
     margin-bottom: 30px;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 .button-container  p{
-    font-size: 0.91rem;
+    font-size: 1.33rem;
 }
 .button-container p a{
-    font-size: 0.91rem;
+    font-size:1.33rem;
 }
 }
 /* mobile responsiveness */
@@ -269,14 +269,14 @@ body{
     padding-right: 10px;
 }
 .description p{
-    font-size:0.8rem;
+    font-size:1.2;
     max-width:98% ;
 }
  .white-bg-container{
     padding: 25px 10px 25px 20px;
  }
 .form-container p{
-    font-size:0.9rem;
+    font-size:1.2rem;
     letter-spacing: 0.09em;
     margin-bottom: 8px;  
 }
@@ -295,12 +295,12 @@ body{
     width: 15%;
     margin-right: min(10px,5%);
     text-align: left;
-    font-size: 0.6rem;
+    font-size: 1.1rem;
     letter-spacing: 0.09em;
 }
 .input-label-container input{
     padding: 6px;
-    font-size: 0.61rem;
+    font-size: 1.1rem;
 }
 .button-container{  
     padding: 20px 20px 10px;
@@ -309,12 +309,12 @@ body{
     width: 90px;
     padding: 10px 6px;
     margin-bottom: 30px;
-    font-size: 0.71rem;
+    font-size: 1.2rem;
 }
 .button-container  p{
-    font-size: 0.61rem;
+    font-size:1.2;
 }
 .button-container p a{
-    font-size: 0.6rem;
+    font-size: 1.2;
 }
 }
